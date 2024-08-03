@@ -1,0 +1,2 @@
+loadtest -n 1200 -c 200 -k http://localhost:3000/heavy
+The -n option accepts the number of requests the package should send, which is 1200 requests here. The -c option accepts the number of requests that should be sent simultaneously to the server.
